@@ -1,0 +1,87 @@
+# wp-image — 워드프레스용 이미지
+
+워드프레스 글에서 아래 주소로 이미지를 건다.
+
+```
+https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/<경로>
+```
+
+- `thumbnails/<슬러그>.png` — 글 썸네일(1280×720)
+- `posts/<슬러그>/<슬러그>-<그림이름>.png` — 본문 그림
+
+주의: jsDelivr는 `@main` 주소를 최대 약 12시간 저장해 두고 보여 준다. 그림을 고칠 때는 같은 이름으로 덮어쓰지 말고 `-v2`처럼 이름을 바꿔 올린다.
+
+전체 주소는 `주소목록.csv`에 있다(한글은 주소용으로 바꿔 둠).
+
+## 본문 그림 (2)
+
+| 경로 | 주소 |
+|---|---|
+| posts/도면오류비용/도면오류비용-단계별-비용-네칸.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/posts/%EB%8F%84%EB%A9%B4%EC%98%A4%EB%A5%98%EB%B9%84%EC%9A%A9/%EB%8F%84%EB%A9%B4%EC%98%A4%EB%A5%98%EB%B9%84%EC%9A%A9-%EB%8B%A8%EA%B3%84%EB%B3%84-%EB%B9%84%EC%9A%A9-%EB%84%A4%EC%B9%B8.png |
+| posts/도면오류비용/도면오류비용-의사소통-정확도-가로.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/posts/%EB%8F%84%EB%A9%B4%EC%98%A4%EB%A5%98%EB%B9%84%EC%9A%A9/%EB%8F%84%EB%A9%B4%EC%98%A4%EB%A5%98%EB%B9%84%EC%9A%A9-%EC%9D%98%EC%82%AC%EC%86%8C%ED%86%B5-%EC%A0%95%ED%99%95%EB%8F%84-%EA%B0%80%EB%A1%9C.png |
+
+## 썸네일 (61)
+
+| 경로 | 주소 |
+|---|---|
+| thumbnails/6개-방향으로-공차를-통제할-수-있게-하는-6자유도.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/6%EA%B0%9C-%EB%B0%A9%ED%96%A5%EC%9C%BC%EB%A1%9C-%EA%B3%B5%EC%B0%A8%EB%A5%BC-%ED%86%B5%EC%A0%9C%ED%95%A0-%EC%88%98-%EC%9E%88%EA%B2%8C-%ED%95%98%EB%8A%94-6%EC%9E%90%EC%9C%A0%EB%8F%84.png |
+| thumbnails/6자유도-스마트폰.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/6%EC%9E%90%EC%9C%A0%EB%8F%84-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0.png |
+| thumbnails/asme-rule2.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/asme-rule2.png |
+| thumbnails/drf-역할.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/drf-%EC%97%AD%ED%95%A0.png |
+| thumbnails/drf-특징.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/drf-%ED%8A%B9%EC%A7%95.png |
+| thumbnails/fcf-배치로-결정되는-규제-대상-서피스-피쳐-vs-사이즈.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/fcf-%EB%B0%B0%EC%B9%98%EB%A1%9C-%EA%B2%B0%EC%A0%95%EB%90%98%EB%8A%94-%EA%B7%9C%EC%A0%9C-%EB%8C%80%EC%83%81-%EC%84%9C%ED%94%BC%EC%8A%A4-%ED%94%BC%EC%B3%90-vs-%EC%82%AC%EC%9D%B4%EC%A6%88.png |
+| thumbnails/fcf-읽는-방법.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/fcf-%EC%9D%BD%EB%8A%94-%EB%B0%A9%EB%B2%95.png |
+| thumbnails/fcf-피쳐-컨트롤-프레임.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/fcf-%ED%94%BC%EC%B3%90-%EC%BB%A8%ED%8A%B8%EB%A1%A4-%ED%94%84%EB%A0%88%EC%9E%84.png |
+| thumbnails/gdt에-대한-10가지-오해.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/gdt%EC%97%90-%EB%8C%80%ED%95%9C-10%EA%B0%80%EC%A7%80-%EC%98%A4%ED%95%B4.png |
+| thumbnails/mmb-계산과-적절한-mmb-선택.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/mmb-%EA%B3%84%EC%82%B0%EA%B3%BC-%EC%A0%81%EC%A0%88%ED%95%9C-mmb-%EC%84%A0%ED%83%9D.png |
+| thumbnails/mmc-검사.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/mmc-%EA%B2%80%EC%82%AC.png |
+| thumbnails/mmc-특정재료상태.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/mmc-%ED%8A%B9%EC%A0%95%EC%9E%AC%EB%A3%8C%EC%83%81%ED%83%9C.png |
+| thumbnails/rule-1-실제-적용과-검사방법.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/rule-1-%EC%8B%A4%EC%A0%9C-%EC%A0%81%EC%9A%A9%EA%B3%BC-%EA%B2%80%EC%82%AC%EB%B0%A9%EB%B2%95.png |
+| thumbnails/rule-1.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/rule-1.png |
+| thumbnails/공차가-중요한-이유.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B3%B5%EC%B0%A8%EA%B0%80-%EC%A4%91%EC%9A%94%ED%95%9C-%EC%9D%B4%EC%9C%A0.png |
+| thumbnails/공차가-필요한-이유.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B3%B5%EC%B0%A8%EA%B0%80-%ED%95%84%EC%9A%94%ED%95%9C-%EC%9D%B4%EC%9C%A0.png |
+| thumbnails/공차는-누가-결정하는가.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B3%B5%EC%B0%A8%EB%8A%94-%EB%88%84%EA%B0%80-%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94%EA%B0%80.png |
+| thumbnails/공차재료조건_rfs_mmc_lmc.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B3%B5%EC%B0%A8%EC%9E%AC%EB%A3%8C%EC%A1%B0%EA%B1%B4_rfs_mmc_lmc.png |
+| thumbnails/공차조건-모디파이어.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B3%B5%EC%B0%A8%EC%A1%B0%EA%B1%B4-%EB%AA%A8%EB%94%94%ED%8C%8C%EC%9D%B4%EC%96%B4.png |
+| thumbnails/공차편차오차-기하공차-필수-용어-정리.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B3%B5%EC%B0%A8%ED%8E%B8%EC%B0%A8%EC%98%A4%EC%B0%A8-%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8-%ED%95%84%EC%88%98-%EC%9A%A9%EC%96%B4-%EC%A0%95%EB%A6%AC.png |
+| thumbnails/기하공차-gdt-시작-fcf.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8-gdt-%EC%8B%9C%EC%9E%91-fcf.png |
+| thumbnails/기하공차-유형-특징.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8-%EC%9C%A0%ED%98%95-%ED%8A%B9%EC%A7%95.png |
+| thumbnails/기하공차-통제목표.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8-%ED%86%B5%EC%A0%9C%EB%AA%A9%ED%91%9C.png |
+| thumbnails/기하공차-통제속성.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8-%ED%86%B5%EC%A0%9C%EC%86%8D%EC%84%B1.png |
+| thumbnails/기하공차-해석-1.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8-%ED%95%B4%EC%84%9D-1.png |
+| thumbnails/기하공차-해석-3-원통형-피쳐.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8-%ED%95%B4%EC%84%9D-3-%EC%9B%90%ED%86%B5%ED%98%95-%ED%94%BC%EC%B3%90.png |
+| thumbnails/기하공차-해석-4-너비형-피쳐.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8-%ED%95%B4%EC%84%9D-4-%EB%84%88%EB%B9%84%ED%98%95-%ED%94%BC%EC%B3%90.png |
+| thumbnails/기하공차-해석-5-구형-피쳐.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8-%ED%95%B4%EC%84%9D-5-%EA%B5%AC%ED%98%95-%ED%94%BC%EC%B3%90.png |
+| thumbnails/기하공차-해석-6-mmc-패턴홀.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8-%ED%95%B4%EC%84%9D-6-mmc-%ED%8C%A8%ED%84%B4%ED%99%80.png |
+| thumbnails/기하공차-해석하기-7-6개의-패턴홀.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8-%ED%95%B4%EC%84%9D%ED%95%98%EA%B8%B0-7-6%EA%B0%9C%EC%9D%98-%ED%8C%A8%ED%84%B4%ED%99%80.png |
+| thumbnails/기하공차로-좌절한-엔지니어를-위한-힐링-자기계발.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8%EB%A1%9C-%EC%A2%8C%EC%A0%88%ED%95%9C-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%9E%90%EB%A7%81-%EC%9E%90%EA%B8%B0%EA%B3%84%EB%B0%9C.png |
+| thumbnails/기하공차의-문제가-아니라-측정수의-문제.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8%EC%9D%98-%EB%AC%B8%EC%A0%9C%EA%B0%80-%EC%95%84%EB%8B%88%EB%9D%BC-%EC%B8%A1%EC%A0%95%EC%88%98%EC%9D%98-%EB%AC%B8%EC%A0%9C.png |
+| thumbnails/당신의-엔지니어링-경쟁력을-세계-수준으로-높이는.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EB%8B%B9%EC%8B%A0%EC%9D%98-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81-%EA%B2%BD%EC%9F%81%EB%A0%A5%EC%9D%84-%EC%84%B8%EA%B3%84-%EC%88%98%EC%A4%80%EC%9C%BC%EB%A1%9C-%EB%86%92%EC%9D%B4%EB%8A%94.png |
+| thumbnails/데이텀-역할.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EB%8D%B0%EC%9D%B4%ED%85%80-%EC%97%AD%ED%95%A0.png |
+| thumbnails/데이텀-정의.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EB%8D%B0%EC%9D%B4%ED%85%80-%EC%A0%95%EC%9D%98.png |
+| thumbnails/데이텀-피쳐의-식별.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EB%8D%B0%EC%9D%B4%ED%85%80-%ED%94%BC%EC%B3%90%EC%9D%98-%EC%8B%9D%EB%B3%84.png |
+| thumbnails/도면-조직-공통언어.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EB%8F%84%EB%A9%B4-%EC%A1%B0%EC%A7%81-%EA%B3%B5%ED%86%B5%EC%96%B8%EC%96%B4.png |
+| thumbnails/도면에-없으면-없는-것이다.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EB%8F%84%EB%A9%B4%EC%97%90-%EC%97%86%EC%9C%BC%EB%A9%B4-%EC%97%86%EB%8A%94-%EA%B2%83%EC%9D%B4%EB%8B%A4.png |
+| thumbnails/도면오류비용.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EB%8F%84%EB%A9%B4%EC%98%A4%EB%A5%98%EB%B9%84%EC%9A%A9.png |
+| thumbnails/베이직-치수-일반-치수-비교.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EB%B2%A0%EC%9D%B4%EC%A7%81-%EC%B9%98%EC%88%98-%EC%9D%BC%EB%B0%98-%EC%B9%98%EC%88%98-%EB%B9%84%EA%B5%90.png |
+| thumbnails/베이직-치수.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EB%B2%A0%EC%9D%B4%EC%A7%81-%EC%B9%98%EC%88%98.png |
+| thumbnails/베이직-치수의-완전한-이해-개념부터-트루-포지션.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EB%B2%A0%EC%9D%B4%EC%A7%81-%EC%B9%98%EC%88%98%EC%9D%98-%EC%99%84%EC%A0%84%ED%95%9C-%EC%9D%B4%ED%95%B4-%EA%B0%9C%EB%85%90%EB%B6%80%ED%84%B0-%ED%8A%B8%EB%A3%A8-%ED%8F%AC%EC%A7%80%EC%85%98.png |
+| thumbnails/불량품이-합격하고-양품이-불합격되는-치수공차.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EB%B6%88%EB%9F%89%ED%92%88%EC%9D%B4-%ED%95%A9%EA%B2%A9%ED%95%98%EA%B3%A0-%EC%96%91%ED%92%88%EC%9D%B4-%EB%B6%88%ED%95%A9%EA%B2%A9%EB%90%98%EB%8A%94-%EC%B9%98%EC%88%98%EA%B3%B5%EC%B0%A8.png |
+| thumbnails/사이즈-피쳐.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%82%AC%EC%9D%B4%EC%A6%88-%ED%94%BC%EC%B3%90.png |
+| thumbnails/사이즈-피쳐의-mmc와-lmc.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%82%AC%EC%9D%B4%EC%A6%88-%ED%94%BC%EC%B3%90%EC%9D%98-mmc%EC%99%80-lmc.png |
+| thumbnails/사이즈-피쳐의-성립조건.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%82%AC%EC%9D%B4%EC%A6%88-%ED%94%BC%EC%B3%90%EC%9D%98-%EC%84%B1%EB%A6%BD%EC%A1%B0%EA%B1%B4.png |
+| thumbnails/서피스-피쳐-비교.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%84%9C%ED%94%BC%EC%8A%A4-%ED%94%BC%EC%B3%90-%EB%B9%84%EA%B5%90.png |
+| thumbnails/서피스-피쳐-사이즈-피쳐-비교.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%84%9C%ED%94%BC%EC%8A%A4-%ED%94%BC%EC%B3%90-%EC%82%AC%EC%9D%B4%EC%A6%88-%ED%94%BC%EC%B3%90-%EB%B9%84%EA%B5%90.png |
+| thumbnails/서피스-해석-vs-중심축-해석-측정방법이-다르면-해석.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%84%9C%ED%94%BC%EC%8A%A4-%ED%95%B4%EC%84%9D-vs-%EC%A4%91%EC%8B%AC%EC%B6%95-%ED%95%B4%EC%84%9D-%EC%B8%A1%EC%A0%95%EB%B0%A9%EB%B2%95%EC%9D%B4-%EB%8B%A4%EB%A5%B4%EB%A9%B4-%ED%95%B4%EC%84%9D.png |
+| thumbnails/설계-생산-품질-고객이-싸우는-진짜-이유.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%84%A4%EA%B3%84-%EC%83%9D%EC%82%B0-%ED%92%88%EC%A7%88-%EA%B3%A0%EA%B0%9D%EC%9D%B4-%EC%8B%B8%EC%9A%B0%EB%8A%94-%EC%A7%84%EC%A7%9C-%EC%9D%B4%EC%9C%A0.png |
+| thumbnails/왜-이-값인가-기하공차-설계에서-판단-근거가-중요한.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%99%9C-%EC%9D%B4-%EA%B0%92%EC%9D%B8%EA%B0%80-%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8-%EC%84%A4%EA%B3%84%EC%97%90%EC%84%9C-%ED%8C%90%EB%8B%A8-%EA%B7%BC%EA%B1%B0%EA%B0%80-%EC%A4%91%EC%9A%94%ED%95%9C.png |
+| thumbnails/우리가-측정에서-다루는-데이텀은-진짜-데이텀이-아.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%9A%B0%EB%A6%AC%EA%B0%80-%EC%B8%A1%EC%A0%95%EC%97%90%EC%84%9C-%EB%8B%A4%EB%A3%A8%EB%8A%94-%EB%8D%B0%EC%9D%B4%ED%85%80%EC%9D%80-%EC%A7%84%EC%A7%9C-%EB%8D%B0%EC%9D%B4%ED%85%80%EC%9D%B4-%EC%95%84.png |
+| thumbnails/원페이지-기하공차-1-page-gdt.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%9B%90%ED%8E%98%EC%9D%B4%EC%A7%80-%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8-1-page-gdt.png |
+| thumbnails/윤곽공차의-확장-1-불균등-공차영역을-정의하는-ⓤ-모.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%9C%A4%EA%B3%BD%EA%B3%B5%EC%B0%A8%EC%9D%98-%ED%99%95%EC%9E%A5-1-%EB%B6%88%EA%B7%A0%EB%93%B1-%EA%B3%B5%EC%B0%A8%EC%98%81%EC%97%AD%EC%9D%84-%EC%A0%95%EC%9D%98%ED%95%98%EB%8A%94-%E2%93%A4-%EB%AA%A8.png |
+| thumbnails/윤곽공차의-확장-2-범위지정-비트윈-올어라운드-올.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%9C%A4%EA%B3%BD%EA%B3%B5%EC%B0%A8%EC%9D%98-%ED%99%95%EC%9E%A5-2-%EB%B2%94%EC%9C%84%EC%A7%80%EC%A0%95-%EB%B9%84%ED%8A%B8%EC%9C%88-%EC%98%AC%EC%96%B4%EB%9D%BC%EC%9A%B4%EB%93%9C-%EC%98%AC.png |
+| thumbnails/윤곽공차의-확장-3-불균일한-공차영역의-정의-비트윈.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%9C%A4%EA%B3%BD%EA%B3%B5%EC%B0%A8%EC%9D%98-%ED%99%95%EC%9E%A5-3-%EB%B6%88%EA%B7%A0%EC%9D%BC%ED%95%9C-%EA%B3%B5%EC%B0%A8%EC%98%81%EC%97%AD%EC%9D%98-%EC%A0%95%EC%9D%98-%EB%B9%84%ED%8A%B8%EC%9C%88.png |
+| thumbnails/자전거로-알아보는-기하공차.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%9E%90%EC%A0%84%EA%B1%B0%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8.png |
+| thumbnails/체계로서의-gdt.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%B2%B4%EA%B3%84%EB%A1%9C%EC%84%9C%EC%9D%98-gdt.png |
+| thumbnails/치수공차와-기하공차의-근본적인-차이.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%B9%98%EC%88%98%EA%B3%B5%EC%B0%A8%EC%99%80-%EA%B8%B0%ED%95%98%EA%B3%B5%EC%B0%A8%EC%9D%98-%EA%B7%BC%EB%B3%B8%EC%A0%81%EC%9D%B8-%EC%B0%A8%EC%9D%B4.png |
+| thumbnails/치수공차의-한계.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%EC%B9%98%EC%88%98%EA%B3%B5%EC%B0%A8%EC%9D%98-%ED%95%9C%EA%B3%84.png |
+| thumbnails/피쳐-정의.png | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/%ED%94%BC%EC%B3%90-%EC%A0%95%EC%9D%98.png |
