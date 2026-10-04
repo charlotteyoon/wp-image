@@ -8,6 +8,8 @@ https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/<경로>
 
 - `thumbnails/<글id>.png` — 글 썸네일(1280×720)
 - `posts/<글id>/<글id>-<그림이름>.png` — 본문 그림
+- `icons/icon-<이름>.png` — 기능 아이콘(512×512, 투명). 원본 2160px은 image 저장소 `feature-icons/`
+- `empty/empty-<이름>.png` — 빈 화면 그림(640×483, 투명)
 - 글id는 영문(예: `sijak-legal`). 어떤 글인지는 아래 표와 `urls.csv`의 한글 슬러그로 짝지어 둔다.
 
 주의: jsDelivr는 `@main` 주소를 최대 약 12시간 저장해 두고 보여 준다. 그림을 고칠 때는 같은 이름으로 덮어쓰지 말고 `-v2`처럼 이름을 바꿔 올린다.
@@ -84,3 +86,32 @@ https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/<경로>
 | 왜-이-값인가-기하공차-설계에서-판단-근거가-중요한 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/sijak-why-this-value.png |
 | 공차가-필요한-이유 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/sijak-why-tolerance.png |
 | 당신의-엔지니어링-경쟁력을-세계-수준으로-높이는 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/thumbnails/sijak-world-class.png |
+
+## 기능 아이콘 (16) — 512×512 투명 PNG
+
+| 용도 | 주소 |
+|---|---|
+| 분류: 시작 전에 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-before.png |
+| 분류: 기본 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-fcf.png |
+| 분류: 데이텀 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-datum.png |
+| 분류: 기하공차 종류 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-types.png |
+| 분류: 재료조건 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-mmc.png |
+| 분류: 실전 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-practice.png |
+| 도구: 보너스 공차 계산기 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-calculator.png |
+| 도구: 자유도 시뮬레이터 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-dof.png |
+| 도구: 기하공차 용어집 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-glossary.png |
+| 도구: FCF 편집기 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-editor.png |
+| 도구: 용어집 챗봇 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-chatbot.png |
+| 입구: 커뮤니티 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-community.png |
+| 입구: 질문의 전당 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-hall.png |
+| 입구: 강의 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-course.png |
+| 입구: 전자책 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-ebook.png |
+| 입구: 블로그 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/icons/icon-blog.png |
+
+## 빈 화면 그림 (3) — 640×483 투명 PNG
+
+| 용도 | 주소 |
+|---|---|
+| 빈 화면: 검색 결과 없음 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/empty/empty-search.png |
+| 빈 화면: 404 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/empty/empty-404.png |
+| 빈 화면: 글 없음 | https://cdn.jsdelivr.net/gh/charlotteyoon/wp-image@main/empty/empty-posts.png |
